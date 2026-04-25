@@ -1,48 +1,39 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en" id="html">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="portfolio, projeto"
-    <meta name="description" content="site">
-    <link rel="stylesheet" href="style.css">
-    <title> Portfolio </title>
+    <title>Projeto Lâmpada</title>
 </head>
 <body>
     <header>
-    <h1> Jhennifer Paini </h1>
-    <img src="https://i.pinimg.com/236x/48/09/cd/4809cde3bf1a1e0637ea59ad1041e615.jpg" alt="foto">
-    <hr>
+    <h1> Projeto Lâmpada </h1>
     </header>
 
-    <section>
-        <h2> Acadêmica </h2>
-        <ul>
-            <li> Ensino Médio Completo </li>
-            <li> Ensino Superior em Desenvolvimento de Software Multiplataforma </li>
-        </ul>
-    </section>
+    <section id="content">
+    <br>
+    <img src="imagens/luzDesligada.gif.png" alt="Lâmpada Desligada" id="lampada">
 
-    <section> 
-        <h2> Projetos </h2>
-        <table>
-            <tr>
-                <td> <a href="https://scratch.mit.edu/projects/1243861261"> <p> Jogo </p> </a> </td>
-                <td> Jogo "Avatar Maker" simples feito no Scratch como projeto escolar </td>
-                <td> <img src="fotos/Screenshot_20260309-214356.jpg" alt="foto"> </td>
-            </tr>
-            <tr>
-                <td> <a href="https://www.canva.com/design/DAGkc5Vhue4/Qe-ATlxqsg64KqpI4fj7Ag/view?utm_content=DAGkc5Vhue4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9571808a06"> Site </a> </td>
-                <td> Site protótipo feito no Canva como projeto escolar </td>
-                <td> <img src="fotos/Screenshot_20260309-214747.jpg" alt="foto"> </td>
-            </tr>
-        </table>
+    <br>
+    <br>
+    <input type="button" value="Ligar" onclick="ligar()">
+    <input type="button" value="Apagar" onclick="apagar()">
+    <input type="button" value="Sumir" onclick="sumir()">
+    <input type="button" value="Aparecer" onclick="aparecer()">
+    <input type="button" value="Piscar" onclick="piscar()">
+    <input type="button" value="Piscar (Auto)" onclick="piscarAuto()">
+    <input type="button" value="Parar de Piscar" onclick="parar()">
+    <input type="button" value="⬅️ Mover" onclick="moverE()">
+    <input type="button" value="➡️ Mover" onclick="moverD()">
+    
     </section>
-    <hr>
-    <script>
-    </script>
+    <script src="script.js"></script>
+
     <footer>
-        <p> Fatec Votorantim </p>
+        <section id="footer">
+        <p> Jhennifer Paini - DSM </p>
+        </section>
     </footer>
 </body>
 </html>
